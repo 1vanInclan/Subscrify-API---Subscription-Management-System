@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=development
+    develop:
+      watch:
+        - action: sync
+          path: ./      
+          target: /app  
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: package.json
