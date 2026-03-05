@@ -4,13 +4,13 @@ export interface Subscription {
   planName: string;
   price: number;
   status: string;
-  startDate: Date;
-  endDate: Date;
+  startDate: Date | string;
+  endDate: Date | string;
   autoRenew: boolean;
   metadata: {
     paymentMethod: string;
     region: string;
   };
   isActive: boolean;
-  deletedAt: Date | null
+  deletedAt: Date | string | null
 }
