@@ -1,5 +1,6 @@
 [
   {
+    "id": "4fbc72a1-32a1-4b72-9c1a-7b3f9e8d4c21",
     "userId": "user_001",
     "planName": "Premium 4K",
     "price": 15.99,
@@ -10,9 +11,12 @@
     "metadata": {
       "paymentMethod": "card_visa_4444",
       "region": "LATAM"
-    }
+    },
+    "isActive": true,
+    "deletedAt": null
   },
   {
+    "id": "8e2d1f9a-5b3c-4e12-b7d6-2f1a9e8d3c54",
     "userId": "user_002",
     "planName": "Basic Ads",
     "price": 5.50,
@@ -23,6 +27,8 @@
     "metadata": {
       "paymentMethod": "paypal_account",
       "region": "USA"
-    }
+    },
+    "isActive": true,
+    "deletedAt": null
   }
 ]

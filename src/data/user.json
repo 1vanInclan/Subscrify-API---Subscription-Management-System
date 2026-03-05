@@ -5,6 +5,16 @@
     "email": "ivan@ejemplo.com",
     "password": "12345",
     "role": "customer",
+    "region": "LATAM",
     "createdAt": "2024-03-04T10:00:00Z"
+  },
+  {
+    "id": "user_002",
+    "username": "alex_pro",
+    "email": "alex.smith@example.us",
+    "password": "12345", 
+    "role": "customer",
+    "region": "USA", 
+    "createdAt": "2025-12-20T15:30:00Z"
   }
 ]
